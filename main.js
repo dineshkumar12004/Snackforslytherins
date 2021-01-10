@@ -226,7 +226,7 @@ function dead(){
     dataBaseNewUser();
     clearInterval(timer);
     isPaused = true;
-    document.write('<center><h3>"You died" press Enter</h3><img src="gif/snakedead.gif"></center> <script type= "text/javascript" src="javascript/snakedead.js"></script>');
+    document.write('<center><h3>"You died" press Enter</h3><img src="snakedead.gif"></center> <script type= "text/javascript" src="snakedead.js"></script>');
 }
 
 function pause(){
